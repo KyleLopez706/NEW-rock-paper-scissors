@@ -1,0 +1,94 @@
+body {
+    background-color:#A5917B;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.borders {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.tie-text {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 60px;
+}
+
+
+
+.you-border {
+    background-color: #28282B;
+    color: azure;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid black;
+    width: 500px;
+    height: 400px;   
+}
+
+
+
+.computer-border {
+    background-color: #28282B;
+    color: azure;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid black;
+    width: 500px;
+    height: 400px;
+}
+
+
+.rock, .paper, .scissors {
+    width: 200px;
+    height: 150px;
+    font-size: 80px;
+    border-radius: 1rem;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+
+
+
+
+.rock{
+    background-color:cornsilk;
+}
+.paper{
+    background-color: cornflowerblue;
+}
+.scissors {
+    background-color: lightcoral;
+}
+
+.rock:hover{
+   background-color:burlywood;
+}
+.paper:hover{
+    background-color: aqua;
+}
+.scissors:hover {
+   background-color: brown;
+}
